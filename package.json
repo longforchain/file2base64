@@ -1,0 +1,17 @@
+{
+  "name": "file2base64",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "file2base64",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

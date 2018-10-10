@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="file2base64" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>file2base64</name>
+    <js-module name="file2base64" src="www/file2base64.js">
+        <clobbers target="cordova.plugins.file2base64" />
+    </js-module>
+
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="file2base64">
+                <param name="android-package" value="com.longfor.base64.File2Base64"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/File2Base64.java" target-dir="src/com/longfor/base64/" />
+        <source-file src="src/android/MIMEType.java" target-dir="src/com/longfor/base64/" />
+    </platform>
+</plugin>
