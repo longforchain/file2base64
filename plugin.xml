@@ -17,4 +17,14 @@
         <source-file src="src/android/File2Base64.java" target-dir="src/com/longfor/base64/" />
         <source-file src="src/android/MIMEType.java" target-dir="src/com/longfor/base64/" />
     </platform>
+    
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="file2base64">
+                <param name="ios-package" value="FileBase64" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/FileBase64.h" />
+        <source-file src="src/ios/FileBase64.m" />
+    </platform>
 </plugin>

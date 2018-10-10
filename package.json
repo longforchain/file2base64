@@ -1,17 +1,27 @@
 {
   "name": "file2base64",
   "version": "1.0.0",
-  "description": "",
+  "description": "cordova plugin file to base64 encode",
   "cordova": {
     "id": "file2base64",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longforchain/file2base64.git"
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova-ios"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "longforchain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longforchain/file2base64/issues"
+  },
+  "homepage": "https://github.com/longforchain/file2base64#readme"
 }
